@@ -1,0 +1,262 @@
+﻿<Window x:Class="StevenWoodheadGradedUnit.PlayerSkills"
+        
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StevenWoodheadGradedUnit"
+        mc:Ignorable="d"
+        Title="Player Skills Page" Height="450" Width="500" WindowStartupLocation="CenterScreen" Background="#FF163172" Foreground="#FFEBB110">
+
+    <Grid x:Name="Grid">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/logo.png" Opacity="0.1" TileMode="Tile" Stretch="None">
+                <ImageBrush.RelativeTransform>
+                    <TransformGroup>
+                        <ScaleTransform CenterY="0.5" CenterX="0.5" ScaleX="0.3" ScaleY="0.3"/>
+                        <SkewTransform CenterX="0.5" CenterY="0.5"/>
+                        <RotateTransform CenterX="0.5" CenterY="0.5"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </ImageBrush.RelativeTransform>
+            </ImageBrush>
+        </Grid.Background>
+        <ComboBox x:Name="combStandard" HorizontalAlignment="Left" Height="20" Margin="154,34,0,0" VerticalAlignment="Top" Width="51" Foreground="Black" BorderBrush="{x:Null}" FontFamily="Arial Black" FontWeight="Bold" OpacityMask="#FFF90B0B" >
+            <ComboBox.Background>
+                <SolidColorBrush Color="Black" Opacity="0.1"/>
+            </ComboBox.Background>
+
+            <ComboBoxItem>0</ComboBoxItem>
+            <ComboBoxItem>1</ComboBoxItem>
+            <ComboBoxItem>2</ComboBoxItem>
+            <ComboBoxItem>3</ComboBoxItem>
+            <ComboBoxItem>4</ComboBoxItem>
+            <ComboBoxItem>5</ComboBoxItem>
+        </ComboBox>
+        <ComboBox x:Name="combSpin" HorizontalAlignment="Left" Height="20" Margin="154,55,0,0" VerticalAlignment="Top" Width="51" Foreground="Black" FontFamily="Arial Black" FontWeight="Bold">
+            <ComboBox.BorderBrush>
+                <SolidColorBrush Color="#FFACACAC" Opacity="0"/>
+            </ComboBox.BorderBrush>
+            <ComboBox.Background>
+                <SolidColorBrush Color="Black" Opacity="0"/>
+            </ComboBox.Background>
+            <ComboBoxItem>0</ComboBoxItem>
+            <ComboBoxItem>1</ComboBoxItem>
+            <ComboBoxItem>2</ComboBoxItem>
+            <ComboBoxItem>3</ComboBoxItem>
+            <ComboBoxItem>4</ComboBoxItem>
+            <ComboBoxItem>5</ComboBoxItem>
+        </ComboBox>
+        <ComboBox x:Name="combPop" HorizontalAlignment="Left" Height="20" Margin="154,77,0,0" VerticalAlignment="Top" Width="51" Foreground="Black"  FontFamily="Arial Black" FontWeight="Bold">
+            <ComboBox.Background>
+                <SolidColorBrush Color="Black" Opacity="0"/>
+            </ComboBox.Background>
+            <ComboBox.BorderBrush>
+                <SolidColorBrush Color="#FFACACAC" Opacity="0"/>
+            </ComboBox.BorderBrush>
+            <ComboBoxItem>0</ComboBoxItem>
+            <ComboBoxItem>1</ComboBoxItem>
+            <ComboBoxItem>2</ComboBoxItem>
+            <ComboBoxItem>3</ComboBoxItem>
+            <ComboBoxItem>4</ComboBoxItem>
+            <ComboBoxItem>5</ComboBoxItem>
+        </ComboBox>
+        <ComboBox x:Name="combFront" HorizontalAlignment="Left" Height="20" Margin="154,101,0,0" VerticalAlignment="Top" Width="51" Foreground="Black" FontFamily="Arial Black" FontWeight="Bold">
+            <ComboBox.BorderBrush>
+                <SolidColorBrush Color="#FFACACAC" Opacity="0"/>
+            </ComboBox.BorderBrush>
+            <ComboBox.Background>
+                <SolidColorBrush Color="Black" Opacity="0"/>
+            </ComboBox.Background>
+            <ComboBoxItem>0</ComboBoxItem>
+            <ComboBoxItem>1</ComboBoxItem>
+            <ComboBoxItem>2</ComboBoxItem>
+            <ComboBoxItem>3</ComboBoxItem>
+            <ComboBoxItem>4</ComboBoxItem>
+            <ComboBoxItem>5</ComboBoxItem>
+        </ComboBox>
+        <ComboBox x:Name="combRear" HorizontalAlignment="Left" Height="20" Margin="154,122,0,0" VerticalAlignment="Top" Width="51" Foreground="Black" FontFamily="Arial Black" FontWeight="Bold">
+            <ComboBox.Background>
+                <SolidColorBrush Color="Black" Opacity="0"/>
+            </ComboBox.Background>
+            <ComboBox.BorderBrush>
+                <SolidColorBrush Color="#FFACACAC" Opacity="0"/>
+            </ComboBox.BorderBrush>
+            <ComboBoxItem>0</ComboBoxItem>
+            <ComboBoxItem>1</ComboBoxItem>
+            <ComboBoxItem>2</ComboBoxItem>
+            <ComboBoxItem>3</ComboBoxItem>
+            <ComboBoxItem>4</ComboBoxItem>
+            <ComboBoxItem>5</ComboBoxItem>
+        </ComboBox>
+        <ComboBox x:Name="combSide" HorizontalAlignment="Left" Height="20" Margin="154,143,0,0" VerticalAlignment="Top" Width="51" Foreground="Black" FontFamily="Arial Black" FontWeight="Bold">
+            <ComboBox.BorderBrush>
+                <SolidColorBrush Color="#FFACACAC" Opacity="0"/>
+            </ComboBox.BorderBrush>
+            <ComboBox.Background>
+                <SolidColorBrush Color="Black" Opacity="0"/>
+            </ComboBox.Background>
+            <ComboBoxItem>0</ComboBoxItem>
+            <ComboBoxItem>1</ComboBoxItem>
+            <ComboBoxItem>2</ComboBoxItem>
+            <ComboBoxItem>3</ComboBoxItem>
+            <ComboBoxItem>4</ComboBoxItem>
+            <ComboBoxItem>5</ComboBoxItem>
+        </ComboBox>
+        <ComboBox x:Name="combScrabble" HorizontalAlignment="Left" Height="20" Margin="154,165,0,0" VerticalAlignment="Top" Width="51" Foreground="Black" FontFamily="Arial Black" FontWeight="Bold">
+            <ComboBox.Background>
+                <SolidColorBrush Color="Black" Opacity="0"/>
+            </ComboBox.Background>
+            <ComboBox.BorderBrush>
+                <SolidColorBrush Color="#FFACACAC" Opacity="0"/>
+            </ComboBox.BorderBrush>
+            <ComboBoxItem>0</ComboBoxItem>
+            <ComboBoxItem>1</ComboBoxItem>
+            <ComboBoxItem>2</ComboBoxItem>
+            <ComboBoxItem>3</ComboBoxItem>
+            <ComboBoxItem>4</ComboBoxItem>
+            <ComboBoxItem>5</ComboBoxItem>
+        </ComboBox>
+         <ComboBox x:Name="combDrop" HorizontalAlignment="Left" Height="20" Margin="154,194,0,0" VerticalAlignment="Top" Width="51" Foreground="Black" FontFamily="Arial Black" FontWeight="Bold">
+            <ComboBox.BorderBrush>
+                <SolidColorBrush Color="#FFACACAC" Opacity="0"/>
+            </ComboBox.BorderBrush>
+            <ComboBox.Background>
+                <SolidColorBrush Color="Black" Opacity="0"/>
+            </ComboBox.Background>
+            <ComboBoxItem>0</ComboBoxItem>
+            <ComboBoxItem>1</ComboBoxItem>
+            <ComboBoxItem>2</ComboBoxItem>
+            <ComboBoxItem>3</ComboBoxItem>
+            <ComboBoxItem>4</ComboBoxItem>
+            <ComboBoxItem>5</ComboBoxItem>
+        </ComboBox>
+        <ComboBox x:Name="combPunt" HorizontalAlignment="Left" Height="20" Margin="154,215,0,0" VerticalAlignment="Top" Width="51" Foreground="Black" FontFamily="Arial Black" FontWeight="Bold">
+            <ComboBox.BorderBrush>
+                <SolidColorBrush Color="#FFACACAC" Opacity="0"/>
+            </ComboBox.BorderBrush>
+            <ComboBox.Background>
+                <SolidColorBrush Color="Black" Opacity="0"/>
+            </ComboBox.Background>
+            <ComboBoxItem>0</ComboBoxItem>
+            <ComboBoxItem>1</ComboBoxItem>
+            <ComboBoxItem>2</ComboBoxItem>
+            <ComboBoxItem>3</ComboBoxItem>
+            <ComboBoxItem>4</ComboBoxItem>
+            <ComboBoxItem>5</ComboBoxItem>
+        </ComboBox>
+        <ComboBox x:Name="combGrub" HorizontalAlignment="Left" Height="20" Margin="154,237,0,0" VerticalAlignment="Top" Width="51" Foreground="Black" FontFamily="Arial Black" FontWeight="Bold">
+            <ComboBox.BorderBrush>
+                <SolidColorBrush Color="#FFACACAC" Opacity="0"/>
+            </ComboBox.BorderBrush>
+            <ComboBox.Background>
+                <SolidColorBrush Color="Black" Opacity="0"/>
+            </ComboBox.Background>
+            <ComboBoxItem>0</ComboBoxItem>
+            <ComboBoxItem>1</ComboBoxItem>
+            <ComboBoxItem>2</ComboBoxItem>
+            <ComboBoxItem>3</ComboBoxItem>
+            <ComboBoxItem>4</ComboBoxItem>
+            <ComboBoxItem>5</ComboBoxItem>
+        </ComboBox>
+        <ComboBox x:Name="combGoal" HorizontalAlignment="Left" Height="20" Margin="154,259,0,0" VerticalAlignment="Top" Width="51" Foreground="Black" FontFamily="Arial Black" FontWeight="Bold">
+            <ComboBox.BorderBrush>
+                <SolidColorBrush Color="#FFACACAC" Opacity="0"/>
+            </ComboBox.BorderBrush>
+            <ComboBox.Background>
+                <SolidColorBrush Color="Black" Opacity="0"/>
+            </ComboBox.Background>
+            <ComboBoxItem>0</ComboBoxItem>
+            <ComboBoxItem>1</ComboBoxItem>
+            <ComboBoxItem>2</ComboBoxItem>
+            <ComboBoxItem>3</ComboBoxItem>
+            <ComboBoxItem>4</ComboBoxItem>
+            <ComboBoxItem>5</ComboBoxItem>
+        </ComboBox>
+         <TextBox x:Name="txtAddPlayerName" HorizontalAlignment="Left" Height="29" Margin="154,285,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="114" Foreground="#FFEBB110" VerticalContentAlignment="Center" FontFamily="Arial Black" >
+            <TextBox.BorderBrush>
+                <SolidColorBrush Color="#FFABADB3" Opacity="0"/>
+            </TextBox.BorderBrush>
+            <TextBox.Background>
+                <SolidColorBrush Color="White" Opacity="0.1"/>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="txtPassing" HorizontalAlignment="Left" Height="64" Margin="219,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="205" Foreground="#FFEBB110" FontFamily="Arial Black" FontSize="10" FontWeight="Bold">
+            <TextBox.BorderBrush>
+                <SolidColorBrush Color="#FFABADB3" Opacity="0"/>
+            </TextBox.BorderBrush>
+            <TextBox.Background>
+                <SolidColorBrush Color="White" Opacity="0.1"/>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="txtTackling" HorizontalAlignment="Left" Height="83" Margin="219,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="205" Foreground="#FFEBB110" FontFamily="Arial Black" FontSize="10" FontWeight="Bold">
+            <TextBox.Background>
+                <SolidColorBrush Color="White" Opacity="0.1"/>
+            </TextBox.Background>
+            <TextBox.BorderBrush>
+                <SolidColorBrush Color="#FFABADB3" Opacity="0"/>
+            </TextBox.BorderBrush>
+        </TextBox>
+        <TextBox x:Name="txtKicking" HorizontalAlignment="Left" Height="83" Margin="219,193,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="206" FontWeight="Bold" FontFamily="Arial Black" Foreground="#FFEBB110" FontSize="10">
+            <TextBox.Background>
+                <SolidColorBrush Color="White" Opacity="0.1"/>
+            </TextBox.Background>
+            <TextBox.BorderBrush>
+                <SolidColorBrush Color="#FFABADB3" Opacity="0.035"/>
+            </TextBox.BorderBrush>
+        </TextBox>
+        <Button x:Name="btnSaveDetails" Content="Save/Edit Skills" HorizontalAlignment="Left" Height="34" Margin="283,282,0,0" VerticalAlignment="Top" Width="141" Foreground="#FFEBB110" FontFamily="Arial Black" Click="btnSaveDetails_Click">
+            <Button.BorderBrush>
+                <SolidColorBrush Color="#FF707070" Opacity="0"/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <SolidColorBrush Color="#FFDDDDDD" Opacity="0"/>
+            </Button.Background>
+        </Button>
+        <TextBox x:Name="txtSearchPlayer" HorizontalAlignment="Left" Height="29" Margin="223,370,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="114" Foreground="#FFEBB110" VerticalContentAlignment="Center" FontFamily="Arial Black">
+            <TextBox.BorderBrush>
+                <SolidColorBrush Color="#FFABADB3" Opacity="0"/>
+            </TextBox.BorderBrush>
+            <TextBox.Background>
+                <SolidColorBrush Color="White" Opacity="0.1"/>
+            </TextBox.Background>
+        </TextBox>
+        <Button x:Name="btnSearchPlayer" Content="Search" HorizontalAlignment="Left" Height="34" Margin="336,367,0,0" VerticalAlignment="Top" Width="66" FontFamily="Arial Black" FontSize="14" Click="btnSearchPlayer_Click">
+            <Button.BorderBrush>
+                <SolidColorBrush Color="#FF707070" Opacity="0"/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <SolidColorBrush Color="#FFDDDDDD" Opacity="0"/>
+            </Button.Background>
+            <Button.Foreground>
+                <SolidColorBrush Color="#FFEBB110" Opacity="1"/>
+            </Button.Foreground>
+        </Button>
+        
+        <Button Content="Home" HorizontalAlignment="Left" Height="34" Margin="426,15,0,0" VerticalAlignment="Top" Width="54" Foreground="#FFEBB110" FontFamily="Arial Black" FontSize="14" Click="Button_Click">
+            <Button.BorderBrush>
+                <SolidColorBrush Color="#FF707070" Opacity="0"/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <SolidColorBrush Color="#FFDDDDDD" Opacity="0"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Tackling" HorizontalAlignment="Left" Height="27" Margin="11,101,0,0" VerticalAlignment="Top" Width="67" Foreground="#FFEBB110" FontFamily="Arial Black" FontWeight="Bold"/>
+        <Label Content="Kicking" HorizontalAlignment="Left" Height="27" Margin="11,193,0,0" VerticalAlignment="Top" Width="67" Foreground="#FFEBB110" FontFamily="Arial Black" FontWeight="Bold"/>
+        <Label Content="Standard" HorizontalAlignment="Left" Height="27" Margin="77,34,0,0" VerticalAlignment="Top" Width="70" Foreground="#FFEBB110" FontFamily="Arial Black" FontWeight="Bold"/>
+        <Label Content="Spin" HorizontalAlignment="Left" Height="27" Margin="76,52,0,0" VerticalAlignment="Top" Width="70" Foreground="#FFEBB110" FontFamily="Arial Black" FontWeight="Bold"/>
+        <Label Content="Pop" HorizontalAlignment="Left" Height="27" Margin="77,72,0,0" VerticalAlignment="Top" Width="70" Foreground="#FFEBB110" FontFamily="Arial Black" FontWeight="Bold"/>
+        <Label Content="Front" HorizontalAlignment="Left" Height="27" Margin="77,100,0,0" VerticalAlignment="Top" Width="70" Foreground="#FFEBB110" FontFamily="Arial Black" FontWeight="Bold"/>
+        <Label Content="Rear" HorizontalAlignment="Left" Height="27" Margin="77,120,0,0" VerticalAlignment="Top" Width="70" Foreground="#FFEBB110" FontFamily="Arial Black" FontWeight="Bold"/>
+        <Label Content="Side" HorizontalAlignment="Left" Height="27" Margin="77,140,0,0" VerticalAlignment="Top" Width="70" Foreground="#FFEBB110" FontFamily="Arial Black" FontWeight="Bold"/>
+        <Label Content="Scrabble" HorizontalAlignment="Left" Height="27" Margin="77,161,0,0" VerticalAlignment="Top" Width="70" Foreground="#FFEBB110" FontFamily="Arial Black" FontWeight="Bold"/>
+        <Label Content="Passing" HorizontalAlignment="Left" Height="27" Margin="11,33,0,0" VerticalAlignment="Top" Width="67" Foreground="#FFEBB110" FontFamily="Arial Black" FontWeight="Bold"/>
+        <Label Content="search player" HorizontalAlignment="Left" Height="27" Margin="97,370,0,0" VerticalAlignment="Top" Width="123" Foreground="#FFEBB110" FontFamily="Arial Black" FontSize="14" FontWeight="Bold"/>
+        <Label Content="Drop" HorizontalAlignment="Left" Height="27" Margin="77,193,0,0" VerticalAlignment="Top" Width="67" Foreground="#FFEBB110" FontFamily="Arial Black" FontWeight="Bold"/>
+        <Label Content="Punt" HorizontalAlignment="Left" Height="27" Margin="77,213,0,0" VerticalAlignment="Top" Width="67" Foreground="#FFEBB110" FontFamily="Arial Black" FontWeight="Bold"/>
+        <Label Content="Grubber" HorizontalAlignment="Left" Height="27" Margin="77,233,0,0" VerticalAlignment="Top" Width="67" Foreground="#FFEBB110" FontFamily="Arial Black" FontWeight="Bold"/>
+        <Label Content="Goal" HorizontalAlignment="Left" Height="27" Margin="77,252,0,0" VerticalAlignment="Top" Width="67" Foreground="#FFEBB110" FontFamily="Arial Black" FontWeight="Bold"/>
+        <Label Content="Players Full Name" HorizontalAlignment="Left" Height="27" Margin="11,290,0,0" VerticalAlignment="Top" Width="129" Foreground="#FFEBB110" FontFamily="Arial Black" FontWeight="Bold"/>
+
+    </Grid>
+</Window>

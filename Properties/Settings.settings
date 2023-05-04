@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="StevenWoodheadGradedUnit.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="connectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename="C:\Users\Steven\Desktop\College2022-23\Graded Unit\27_04\StevenWoodheadGradedUnit\StevenWoodheadGradedUnit\StevenWoodheadGradedUnit\Database\LocalDB.mdf";Integrated Security=True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

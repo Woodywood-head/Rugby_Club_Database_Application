@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="AddEditMember.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdminOptions.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdminSelectionPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CoachesOptions.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CoachSearchPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PlayerSkills.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AddEditMember.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminOptions.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminSelectionPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CoachesOptions.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CoachSearchPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PlayerSkills.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

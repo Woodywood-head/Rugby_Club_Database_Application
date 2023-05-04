@@ -1,0 +1,61 @@
+﻿<Window x:Class="StevenWoodheadGradedUnit.CoachSearchPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StevenWoodheadGradedUnit"
+        mc:Ignorable="d"
+        Title="CoachSearchPage" Height="450" Width="500" WindowStartupLocation="CenterScreen" Background="#FF163172" Foreground="#FFEBB110">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/logo.png" Opacity="0.1" TileMode="Tile" Stretch="None">
+                <ImageBrush.RelativeTransform>
+                    <TransformGroup>
+                        <ScaleTransform CenterY="0.5" CenterX="0.5" ScaleX="0.3" ScaleY="0.3"/>
+                        <SkewTransform CenterX="0.5" CenterY="0.5"/>
+                        <RotateTransform CenterX="0.5" CenterY="0.5"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </ImageBrush.RelativeTransform>
+            </ImageBrush>
+        </Grid.Background>
+        <ListBox x:Name="lstTeam" HorizontalAlignment="Left" Height="280" Margin="250,61,0,0" VerticalAlignment="Top" Width="194" d:ItemsSource="{d:SampleData ItemCount=5}" Foreground="#FFEBB110" FontFamily="Arial Black" FontWeight="Bold" FontSize="16">
+            <ListBox.Background>
+                <SolidColorBrush Color="White" Opacity="0.25"/>
+            </ListBox.Background>
+        </ListBox>
+        <Button x:Name="btnHome" Content="Home" HorizontalAlignment="Left" Height="34" Margin="426,15,0,0" VerticalAlignment="Top" Width="54" Foreground="#FFEBB110" FontFamily="Arial Black" FontSize="14" Click="btnHome_Click" >
+            <Button.BorderBrush>
+                <SolidColorBrush Color="#FF707070" Opacity="0"/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <SolidColorBrush Color="#FFDDDDDD" Opacity="0"/>
+            </Button.Background>
+        </Button>
+        <ComboBox x:Name="combSearch" HorizontalAlignment="Left" Height="37" Margin="22,63,0,0" VerticalAlignment="Top" Width="211" FontFamily="Arial Black" Foreground="Black" FontSize="14" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            <ComboBox.Background>
+                <SolidColorBrush Color="#FF163172" Opacity="1"/>
+            </ComboBox.Background>
+            <ComboBox.BorderBrush>
+                <SolidColorBrush Color="#FF0C0000" Opacity="1"/>
+            </ComboBox.BorderBrush>
+        </ComboBox>
+        <Button x:Name="btnSearch" Content="See Player Details" HorizontalAlignment="Left" Height="57" Margin="41,126,0,0" VerticalAlignment="Top" Width="173" Foreground="#FFEBB110" FontFamily="Arial Black" FontSize="14" Click="btnSearch_Click" >
+            <Button.BorderBrush>
+                <SolidColorBrush Color="#FF707070" Opacity="0"/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <SolidColorBrush Color="#FFDDDDDD" Opacity="0"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnViewAll" Content="View All Players" HorizontalAlignment="Left" Height="63" Margin="41,189,0,0" VerticalAlignment="Top"  Width="173" Foreground="#FFEBB110" FontFamily="Arial Black" FontSize="14" Click="btnViewAll_Click" >
+            <Button.BorderBrush>
+                <SolidColorBrush Color="#FF707070" Opacity="0"/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <SolidColorBrush Color="#FFDDDDDD" Opacity="0"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>
